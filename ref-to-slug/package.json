@@ -1,0 +1,12 @@
+{
+  "name": "@nexza/ref-to-id",
+  "version": "1.0.0",
+  "description": "Create a slug from a GitHub reference",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@sindresorhus/slugify": "^0.9.1"
+  }
+}
