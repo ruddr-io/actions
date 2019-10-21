@@ -26,7 +26,10 @@ async function run() {
       throw new Error('No slug available after slugification.')
     }
 
+    const slugUnderscore = slugify(refName, { separator: '_' });
+
     core.setOutput('slug', slug);
+    core.setOutput('_slug', slugUnderscore);
   }
   catch (error) {
     core.setFailed(error.message);
