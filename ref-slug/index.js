@@ -22,6 +22,9 @@ async function run() {
     }
 
     const slug = slugify(refName);
+    if (!slug) {
+      throw new Error('No slug available after slugification.')
+    }
 
     core.setOutput('slug', slug);
   }

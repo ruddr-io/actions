@@ -1,0 +1,11 @@
+{
+  "name": "@nexza/action-create-file",
+  "version": "1.0.0",
+  "description": "GitHub action to create a file.",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.0"
+  }
+}

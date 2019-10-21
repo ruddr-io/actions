@@ -1,0 +1,12 @@
+name: Create file
+description: Create a file. Useful for .env or other dynamically-generated files.
+inputs:
+  path:
+    description: The location and name of the file.
+    required: true
+  content:
+    description: The content of the file.
+    required: false
+runs:
+  using: node12
+  main: index.js

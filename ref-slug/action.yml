@@ -1,8 +1,8 @@
-name: Get slug from GITHUB_REF
+name: Create GITHUB_REF slug
 description: Convert the GITHUB_REF to a simple slug that can be used in URIs, filenames, and IDs.
 outputs:
   slug:
-    description: The string that was generated from the GITHUB_REF
+    description: The string that was generated from the GITHUB_REF.
 runs:
   using: node12
   main: index.js
