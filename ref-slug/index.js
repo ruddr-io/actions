@@ -23,7 +23,7 @@ async function run() {
 
     const slug = slugify(refName);
     if (!slug) {
-      throw new Error('No slug available after slugification.')
+      throw new Error('No slug available after slugification.');
     }
 
     const slugUnderscore = slugify(refName, { separator: '_' });

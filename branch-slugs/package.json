@@ -1,0 +1,13 @@
+{
+  "name": "@nexza/action-branch-slugs",
+  "version": "1.0.0",
+  "description": "GitHub action to output all branch names as slugs.",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@sindresorhus/slugify": "^0.9.1",
+    "axios": "^0.19.0"
+  }
+}

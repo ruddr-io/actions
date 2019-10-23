@@ -1,0 +1,17 @@
+name: Get slugified branch names
+description: Get active branch names and convert them into useable slugs for URIs, filenames, and IDs.
+inputs:
+  repository:
+    description: The repository to pull branch names from, e.g. 'actions/toolkit'.
+    required: true
+  token:
+    description: The GitHub authorization token.
+    required: true
+outputs:
+  slugs:
+    description: JSON array of slugified branch names.
+  _slugs:
+    description: JSON array of slugs with underscores instead of hyphens.
+runs:
+  using: node12
+  main: index.js

@@ -1,7 +1,7 @@
 {
   "name": "@nexza/action-ref-slug",
   "version": "1.0.0",
-  "description": "GitHub action to create a slug from the GITHUB_REF",
+  "description": "GitHub action to create a slug from the GITHUB_REF.",
   "license": "UNLICENSED",
   "private": true,
   "main": "index.js",
