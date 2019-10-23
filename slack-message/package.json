@@ -1,5 +1,5 @@
 {
-  "name": "@nexza/action-slack",
+  "name": "@nexza/action-slack-message",
   "version": "1.0.0",
   "description": "GitHub action to output all branch names as slugs.",
   "license": "UNLICENSED",

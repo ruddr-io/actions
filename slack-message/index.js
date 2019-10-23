@@ -6,7 +6,7 @@ async function run() {
     const data = JSON.parse(core.getInput('data', { required: true }));
     const token = core.getInput('token', { required: true });
 
-    const response = await axios.request({
+    await axios.request({
       method: 'post',
       url: 'https://slack.com/api/chat.postMessage',
       headers: {
