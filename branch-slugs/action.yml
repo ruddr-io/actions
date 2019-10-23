@@ -9,9 +9,9 @@ inputs:
     required: true
 outputs:
   slugs:
-    description: Comma separated list of slugified branch names.
+    description: Space separated list of slugified branch names.
   _slugs:
-    description: Comma separated list of slugs with underscores instead of hyphens.
+    description: Space separated list of slugs with underscores instead of hyphens.
 runs:
   using: node12
   main: index.js
