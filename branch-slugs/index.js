@@ -20,8 +20,8 @@ async function run() {
     const branchSlugs = branches.map(branch => slugify(branch));
     const branchSlugsUnderscored = branches.map(branch => slugify(branch, { separator: '_' }));
 
-    core.setOutput('slugs', JSON.stringify(branchSlugs));
-    core.setOutput('_slugs', JSON.stringify(branchSlugsUnderscored))
+    core.setOutput('slugs', branchSlugs.join(','));
+    core.setOutput('_slugs', branchSlugsUnderscored.join(','));
   }
   catch (error) {
     core.setFailed(error.message);
