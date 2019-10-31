@@ -1,7 +1,7 @@
 {
   "name": "@nexza/action-slack-message",
   "version": "1.0.0",
-  "description": "GitHub action to output all branch names as slugs.",
+  "description": "Send a Slack message as a bot user using the chat.postMessage API endpoint.",
   "license": "UNLICENSED",
   "private": true,
   "main": "index.js",
