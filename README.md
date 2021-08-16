@@ -17,3 +17,18 @@ Convert the `GITHUB_REF` to a simple slug that can be used in URIs, filenames, a
 ## [Slack Message](slack-message)
 
 Send a Slack message as a bot user using the chat.postMessage API endpoint.
+
+## [SSH](ssh)
+
+Run SSH commands on a remote server.
+
+```yaml
+- name: Run SSH command
+  uses: nexza/actions/ssh@master
+  env:
+    PRIVATE_KEY: MYPRIVATEKEY
+    HOST: MYHOSTNAME
+    USER: MYUSERNAME
+  with:
+    args: echo 'hello world!'
+```
