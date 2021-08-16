@@ -1,0 +1,5 @@
+name: SSH commands
+description: Run SSH commands on a remote server
+runs:
+  using: docker
+  image: Dockerfile
