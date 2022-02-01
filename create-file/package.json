@@ -1,5 +1,5 @@
 {
-  "name": "@nexza/action-create-file",
+  "name": "@ruddr-io/action-create-file",
   "version": "1.0.0",
   "description": "GitHub action to create a file.",
   "license": "UNLICENSED",

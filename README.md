@@ -1,22 +1,18 @@
 # Github Actions
 
-A collection of useful GitHub Actions.
-
-## [Branch Slugs](branch-slugs)
-
-Get all repository branch names converted to slugs.
+A collection of GitHub Actions.
 
 ## [Create File](create-file)
 
 Create a file. Useful for .env or other dynamically-generated files.
 
-## [GitHub Reference Slug](ref-slug)
-
-Convert the `GITHUB_REF` to a simple slug that can be used in URIs, filenames, and IDs.
-
-## [Slack Message](slack-message)
-
-Send a Slack message as a bot user using the chat.postMessage API endpoint.
+```yaml
+- name: Creates a file
+  uses: ruddr-io/actions/create-file@master
+  with:
+    path: path/to/my-file.txt
+    content: My file content
+```
 
 ## [SSH](ssh)
 
@@ -24,7 +20,7 @@ Run SSH commands on a remote server.
 
 ```yaml
 - name: Run SSH command
-  uses: nexza/actions/ssh@master
+  uses: ruddr-io/actions/ssh@master
   env:
     PRIVATE_KEY: MYPRIVATEKEY
     HOST: MYHOSTNAME
